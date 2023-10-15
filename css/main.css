@@ -1160,7 +1160,7 @@ nav .nav_btn {
   }
 }
 
-.footer {
+.footerContainer {
   background: #131417;
   color: #fff;
   margin-top: -5vw;
@@ -1168,205 +1168,205 @@ nav .nav_btn {
   padding-top: 9.16vw;
 }
 @media only screen and (max-width: 912px) {
-  .footer {
+  .footerContainer {
     padding-bottom: 5vw;
     padding-top: 15vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer {
+  .footerContainer {
     margin-top: -10vw;
     padding-top: 25vw;
   }
 }
-.footer .row {
+.footerContainer .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media only screen and (max-width: 670px) {
-  .footer .row {
+  .footerContainer .row {
     flex-direction: column-reverse;
     gap: 4vw;
   }
 }
-.footer .row-top p:nth-child(1),
-.footer .row-top p:nth-child(3) {
+.footerContainer .row-top p:nth-child(1),
+.footerContainer .row-top p:nth-child(3) {
   font-size: 0.9vw;
   letter-spacing: -0.25px;
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-top p:nth-child(1),
-  .footer .row-top p:nth-child(3) {
+  .footerContainer .row-top p:nth-child(1),
+  .footerContainer .row-top p:nth-child(3) {
     font-size: 1.1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-top p:nth-child(1),
-  .footer .row-top p:nth-child(3) {
+  .footerContainer .row-top p:nth-child(1),
+  .footerContainer .row-top p:nth-child(3) {
     font-size: 1.8vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-top p:nth-child(1),
-  .footer .row-top p:nth-child(3) {
+  .footerContainer .row-top p:nth-child(1),
+  .footerContainer .row-top p:nth-child(3) {
     font-size: 2.6vw;
   }
 }
-.footer .row-top p:nth-child(2) {
+.footerContainer .row-top p:nth-child(2) {
   font-size: 1.04vw;
   letter-spacing: -0.25px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-top p:nth-child(2) {
+  .footerContainer .row-top p:nth-child(2) {
     letter-spacing: 0.25px;
     font-size: 1.2vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-top p:nth-child(2) {
+  .footerContainer .row-top p:nth-child(2) {
     font-size: 2vw;
     letter-spacing: 0px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-top p:nth-child(2) {
+  .footerContainer .row-top p:nth-child(2) {
     font-size: 3vw;
   }
 }
-.footer .row-mid {
+.footerContainer .row-mid {
   padding: 13vw 0;
   text-align: center;
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-mid {
+  .footerContainer .row-mid {
     padding: 25vw 0;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-mid {
+  .footerContainer .row-mid {
     padding: 40vw 0;
   }
 }
-.footer .row-mid p {
+.footerContainer .row-mid p {
   font-size: 0.9vw;
   letter-spacing: -0.25px;
   color: #9FA0A3;
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-mid p {
+  .footerContainer .row-mid p {
     font-size: 1.1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-mid p {
+  .footerContainer .row-mid p {
     font-size: 1.8vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-mid p {
+  .footerContainer .row-mid p {
     font-size: 2.6vw;
   }
 }
-.footer .row-mid h1 {
+.footerContainer .row-mid h1 {
   font-size: 3.75vw;
   letter-spacing: -2px;
   font-weight: lighter;
   margin-top: 1.04vw;
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-mid h1 {
+  .footerContainer .row-mid h1 {
     font-size: 5.5vw;
     letter-spacing: -1px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-mid h1 {
+  .footerContainer .row-mid h1 {
     font-size: 7vw;
   }
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-mid h1 {
+  .footerContainer .row-mid h1 {
     margin-top: 1.5vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-mid h1 {
+  .footerContainer .row-mid h1 {
     margin-top: 3vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-mid h1 {
+  .footerContainer .row-mid h1 {
     margin-top: 5vw;
   }
 }
-.footer .row-bottom p {
+.footerContainer .row-bottom p {
   font-size: 0.9vw;
   letter-spacing: -0.25px;
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-bottom p {
+  .footerContainer .row-bottom p {
     font-size: 1.1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-bottom p {
+  .footerContainer .row-bottom p {
     font-size: 1.8vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-bottom p {
+  .footerContainer .row-bottom p {
     font-size: 2.6vw;
   }
 }
-.footer .row-bottom ul {
+.footerContainer .row-bottom ul {
   display: flex;
   gap: 2vw;
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-bottom ul {
+  .footerContainer .row-bottom ul {
     gap: 5.2vw;
   }
 }
-.footer .row-bottom ul li a {
+.footerContainer .row-bottom ul li a {
   color: #fff;
   font-size: 1.04vw;
   letter-spacing: -0.25px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1140px) {
-  .footer .row-bottom ul li a {
+  .footerContainer .row-bottom ul li a {
     letter-spacing: 0.25px;
     font-size: 1.2vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .footer .row-bottom ul li a {
+  .footerContainer .row-bottom ul li a {
     font-size: 2vw;
     letter-spacing: 0px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .footer .row-bottom ul li a {
+  .footerContainer .row-bottom ul li a {
     font-size: 3vw;
   }
 }
 @media (min-width: 912) {
-  .footer .row-bottom .footer-bottom-row-column {
+  .footerContainer .row-bottom .footerContainer-bottom-row-column {
     width: 33.3%;
   }
-  .footer .row-bottom .footer-bottom-row-column.center {
+  .footerContainer .row-bottom .footerContainer-bottom-row-column.center {
     justify-content: center;
   }
-  .footer .row-bottom .footer-bottom-row-column.right {
+  .footerContainer .row-bottom .footerContainer-bottom-row-column.right {
     justify-content: flex-end;
   }
-  .footer .row-bottom .footer-bottom-row-column.spaceBetween {
+  .footerContainer .row-bottom .footerContainer-bottom-row-column.spaceBetween {
     justify-content: space-between;
   }
 }
