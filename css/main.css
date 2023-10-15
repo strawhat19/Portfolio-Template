@@ -1356,6 +1356,18 @@ nav .nav_btn {
     font-size: 3vw;
   }
 }
+.footer .row-bottom .footer-bottom-row-column {
+  width: 33.3%;
+}
+.footer .row-bottom .footer-bottom-row-column.center {
+  justify-content: center;
+}
+.footer .row-bottom .footer-bottom-row-column.right {
+  justify-content: flex-end;
+}
+.footer .row-bottom .footer-bottom-row-column.spaceBetween {
+  justify-content: space-between;
+}
 
 .contact {
   position: fixed;
