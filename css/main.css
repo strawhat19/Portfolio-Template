@@ -513,6 +513,11 @@ nav .nav_btn {
     display: none;
   }
 }
+@media (min-width: 1600px) {
+  .responsive_nav {
+    display: none;
+  }
+}
 .hero {
   height: 100vh;
   display: flex;
