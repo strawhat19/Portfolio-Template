@@ -667,10 +667,10 @@ nav .nav_btn {
   justify-content: space-between;
   gap: 2.6vw;
 }
-.project .project_wrapper .case {
+.project .project_wrapper .project {
   position: relative;
 }
-.project .project_wrapper .case img {
+.project .project_wrapper .project img {
   border-radius: 50px;
   cursor: pointer;
   transition: scale cubic-bezier(0.19, 1, 0.22, 1) 1s;
@@ -679,20 +679,20 @@ nav .nav_btn {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.project .project_wrapper .case img:hover {
+.project .project_wrapper .project img:hover {
   scale: 0.95;
 }
 @media only screen and (max-width: 912px) {
-  .project .project_wrapper .case img {
+  .project .project_wrapper .project img {
     border-radius: 30px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .project .project_wrapper .case img {
+  .project .project_wrapper .project img {
     height: 70vw;
   }
 }
-.project .project_wrapper .case .case_text {
+.project .project_wrapper .project .project_text {
   width: 100%;
   position: absolute;
   left: 0;
@@ -705,17 +705,17 @@ nav .nav_btn {
   justify-content: space-between;
 }
 @media only screen and (max-width: 912px) {
-  .project .project_wrapper .case .case_text {
+  .project .project_wrapper .project .project_text {
     flex-direction: column;
     gap: 1vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .project .project_wrapper .case .case_text {
+  .project .project_wrapper .project .project_text {
     left: 5%;
   }
 }
-.project .project_wrapper .case .case_text p {
+.project .project_wrapper .project .project_text p {
   font-size: 0.8vw;
   letter-spacing: 0px;
   background: #000000;
@@ -727,61 +727,61 @@ nav .nav_btn {
   width: fit-content;
 }
 @media only screen and (max-width: 1140px) {
-  .project .project_wrapper .case .case_text p {
+  .project .project_wrapper .project .project_text p {
     font-size: 1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .project .project_wrapper .case .case_text p {
+  .project .project_wrapper .project .project_text p {
     font-size: 1.6vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .project .project_wrapper .case .case_text p {
+  .project .project_wrapper .project .project_text p {
     font-size: 2.4vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .project .project_wrapper .case .case_text p {
+  .project .project_wrapper .project .project_text p {
     padding: 1vw 2vw;
   }
 }
-.project .project_wrapper .case .case_text div {
+.project .project_wrapper .project .project_text div {
   display: flex;
   gap: 0.5vw;
 }
 @media only screen and (max-width: 912px) {
-  .project .project_wrapper .case .case_text div {
+  .project .project_wrapper .project .project_text div {
     flex-direction: column;
     gap: 1vw;
   }
 }
-.project .project_wrapper .case:hover .case_text {
+.project .project_wrapper .project:hover .project_text {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
 }
-.project .project_wrapper .case:nth-child(1) {
+.project .project_wrapper .project:nth-child(1) {
   width: 100%;
 }
-.project .project_wrapper .case:nth-child(2),
-.project .project_wrapper .case:nth-child(4) {
+.project .project_wrapper .project:nth-child(2),
+.project .project_wrapper .project:nth-child(4) {
   width: 57%;
 }
 @media only screen and (max-width: 670px) {
-  .project .project_wrapper .case:nth-child(2),
-  .project .project_wrapper .case:nth-child(4) {
+  .project .project_wrapper .project:nth-child(2),
+  .project .project_wrapper .project:nth-child(4) {
     width: 100%;
   }
 }
-.project .project_wrapper .case:nth-child(3),
-.project .project_wrapper .case:nth-child(5) {
+.project .project_wrapper .project:nth-child(3),
+.project .project_wrapper .project:nth-child(5) {
   width: 40%;
 }
 @media only screen and (max-width: 670px) {
-  .project .project_wrapper .case:nth-child(3),
-  .project .project_wrapper .case:nth-child(5) {
+  .project .project_wrapper .project:nth-child(3),
+  .project .project_wrapper .project:nth-child(5) {
     width: 100%;
   }
 }
@@ -1356,17 +1356,19 @@ nav .nav_btn {
     font-size: 3vw;
   }
 }
-.footer .row-bottom .footer-bottom-row-column {
-  width: 33.3%;
-}
-.footer .row-bottom .footer-bottom-row-column.center {
-  justify-content: center;
-}
-.footer .row-bottom .footer-bottom-row-column.right {
-  justify-content: flex-end;
-}
-.footer .row-bottom .footer-bottom-row-column.spaceBetween {
-  justify-content: space-between;
+@media (min-width: 912) {
+  .footer .row-bottom .footer-bottom-row-column {
+    width: 33.3%;
+  }
+  .footer .row-bottom .footer-bottom-row-column.center {
+    justify-content: center;
+  }
+  .footer .row-bottom .footer-bottom-row-column.right {
+    justify-content: flex-end;
+  }
+  .footer .row-bottom .footer-bottom-row-column.spaceBetween {
+    justify-content: space-between;
+  }
 }
 
 .contact {
@@ -1969,20 +1971,20 @@ nav .nav_btn {
   }
 }
 
-.case_header {
+.project_header {
   padding-top: 13.5vw;
 }
 @media only screen and (max-width: 912px) {
-  .case_header {
+  .project_header {
     padding-top: 25vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header {
+  .project_header {
     padding-top: 30vw;
   }
 }
-.case_header p {
+.project_header p {
   font-size: 2.5vw;
   letter-spacing: -1px;
   font-weight: lighter;
@@ -1990,58 +1992,58 @@ nav .nav_btn {
   width: 30%;
 }
 @media only screen and (max-width: 1140px) {
-  .case_header p {
+  .project_header p {
     font-size: 2.8vw;
     letter-spacing: -0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_header p {
+  .project_header p {
     font-size: 3.7vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header p {
+  .project_header p {
     font-size: 5.5vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_header p {
+  .project_header p {
     width: 40%;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header p {
+  .project_header p {
     width: 50%;
   }
 }
-.case_header .filter {
+.project_header .filter {
   margin-top: 2.6vw;
   display: flex;
   gap: 0.52vw;
 }
 @media only screen and (max-width: 912px) {
-  .case_header .filter {
+  .project_header .filter {
     margin-top: 5.2vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .filter {
+  .project_header .filter {
     margin-top: 8vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_header .filter {
+  .project_header .filter {
     gap: 1vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .filter {
+  .project_header .filter {
     gap: 2.6vw;
     flex-wrap: wrap;
   }
 }
-.case_header .filter a {
+.project_header .filter a {
   padding: 0.7vw 1.2vw;
   border-radius: 50px;
   width: -moz-fit-content;
@@ -2052,79 +2054,79 @@ nav .nav_btn {
   transition: background cubic-bezier(0.19, 1, 0.22, 1) 1s;
   font-size: 0.9vw;
 }
-.case_header .filter a:hover {
+.project_header .filter a:hover {
   background: #131417;
   color: #fff;
 }
 @media only screen and (max-width: 1140px) {
-  .case_header .filter a {
+  .project_header .filter a {
     padding: 1vw 1.5vw;
     font-size: 1.1vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_header .filter a {
+  .project_header .filter a {
     padding: 1.8vw 3.6vw;
     font-size: 1.6vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .filter a {
+  .project_header .filter a {
     padding: 2vw 4vw;
     font-size: 2.6vw;
   }
 }
-.case_header .filter a.active {
+.project_header .filter a.active {
   background: #131417;
   color: #fff;
 }
-.case_header .back_link {
+.project_header .back_link {
   display: flex;
   align-items: center;
   gap: 1vw;
 }
 @media only screen and (max-width: 912px) {
-  .case_header .back_link {
+  .project_header .back_link {
     gap: 2vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .back_link {
+  .project_header .back_link {
     gap: 3.2vw;
   }
 }
-.case_header .back_link img {
+.project_header .back_link img {
   width: 1.1vw;
   transform: rotate(180deg);
 }
 @media only screen and (max-width: 912px) {
-  .case_header .back_link img {
+  .project_header .back_link img {
     width: 2vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .back_link img {
+  .project_header .back_link img {
     width: 3vw;
   }
 }
-.case_header .back_link a {
+.project_header .back_link a {
   font-size: 0.9vw;
   letter-spacing: -0.25px;
   color: #131417;
 }
 @media only screen and (max-width: 1140px) {
-  .case_header .back_link a {
+  .project_header .back_link a {
     font-size: 1.1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_header .back_link a {
+  .project_header .back_link a {
     font-size: 1.8vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_header .back_link a {
+  .project_header .back_link a {
     font-size: 2.6vw;
   }
 }
@@ -2143,7 +2145,7 @@ nav .nav_btn {
   }
 }
 
-.case_wrapper {
+.project_wrapper {
   padding-top: 7.8vw;
   display: flex;
   flex-wrap: wrap;
@@ -2157,40 +2159,40 @@ nav .nav_btn {
   position: relative;
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper {
+  .project_wrapper {
     padding-top: 15vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper {
+  .project_wrapper {
     padding-top: 20vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper {
+  .project_wrapper {
     padding-bottom: 17vw;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper {
+  .project_wrapper {
     padding-bottom: 15vw;
     gap: 5vw;
   }
 }
-.case_wrapper .case {
+.project_wrapper .project {
   position: relative;
   height: 35vw;
   width: 42vw;
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper .case {
+  .project_wrapper .project {
     width: 100%;
     height: 50vw;
   }
 }
-.case_wrapper .case img {
+.project_wrapper .project img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2199,20 +2201,20 @@ nav .nav_btn {
   cursor: pointer;
   transition: scale cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
-.case_wrapper .case img:hover {
+.project_wrapper .project img:hover {
   scale: 0.95;
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper .case img {
+  .project_wrapper .project img {
     border-radius: 30px;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper .case img {
+  .project_wrapper .project img {
     border-radius: 20px;
   }
 }
-.case_wrapper .case .case_text {
+.project_wrapper .project .project_text {
   width: 100%;
   position: absolute;
   left: 0%;
@@ -2225,17 +2227,17 @@ nav .nav_btn {
   justify-content: space-between;
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper .case .case_text {
+  .project_wrapper .project .project_text {
     flex-direction: column;
     gap: 1vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper .case .case_text {
+  .project_wrapper .project .project_text {
     left: 5%;
   }
 }
-.case_wrapper .case .case_text p {
+.project_wrapper .project .project_text p {
   font-size: 0.8vw;
   letter-spacing: 0px;
   background: #000000;
@@ -2247,37 +2249,37 @@ nav .nav_btn {
   width: fit-content;
 }
 @media only screen and (max-width: 1140px) {
-  .case_wrapper .case .case_text p {
+  .project_wrapper .project .project_text p {
     font-size: 1vw;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper .case .case_text p {
+  .project_wrapper .project .project_text p {
     font-size: 1.6vw;
   }
 }
 @media only screen and (max-width: 670px) {
-  .case_wrapper .case .case_text p {
+  .project_wrapper .project .project_text p {
     font-size: 2.4vw;
   }
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper .case .case_text p {
+  .project_wrapper .project .project_text p {
     padding: 1vw 2vw;
   }
 }
-.case_wrapper .case .case_text div {
+.project_wrapper .project .project_text div {
   display: flex;
   gap: 0.5vw;
 }
 @media only screen and (max-width: 912px) {
-  .case_wrapper .case .case_text div {
+  .project_wrapper .project .project_text div {
     flex-direction: column;
     gap: 1vw;
   }
 }
-.case_wrapper .case:hover .case_text {
+.project_wrapper .project:hover .project_text {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);

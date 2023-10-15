@@ -77,11 +77,13 @@
             }
         }
 
-        .footer-bottom-row-column {
-            width: 33.3%;
-            &.center { justify-content: center; }
-            &.right { justify-content: flex-end; }
-            &.spaceBetween { justify-content: space-between; }
+        @media (min-width: 912) {
+            .footer-bottom-row-column {
+                width: 33.3%;
+                &.center { justify-content: center; }
+                &.right { justify-content: flex-end; }
+                &.spaceBetween { justify-content: space-between; }
+            }
         }
     }
 }

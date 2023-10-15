@@ -7,7 +7,7 @@
         justify-content: space-between;
         gap: 2.6vw;
 
-        .case {
+        .project {
             position: relative;
 
             img {
@@ -31,7 +31,7 @@
                 }
             }
 
-            .case_text {
+            .project_text {
                 width: 100%;
                 position: absolute;
                 left: 0;
@@ -77,19 +77,19 @@
                 }
             }
 
-            &:hover .case_text {
+            &:hover .project_text {
                 visibility: visible;
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
-        .case:nth-child(1) {
+        .project:nth-child(1) {
             width: 100%;
         }
 
-        .case:nth-child(2),
-        .case:nth-child(4) {
+        .project:nth-child(2),
+        .project:nth-child(4) {
             width: 57%;
 
             @include devices(mobile) {
@@ -97,8 +97,8 @@
             }
         }
 
-        .case:nth-child(3),
-        .case:nth-child(5) {
+        .project:nth-child(3),
+        .project:nth-child(5) {
             width: 40%;
 
             @include devices(mobile) {
